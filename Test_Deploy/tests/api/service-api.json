@@ -1,0 +1,42 @@
+{
+    "info": {
+      "name": "Service API",
+      "description": "API tests for service endpoints"
+    },
+    "item": [
+      {
+        "name": "Create Service",
+        "request": {
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"name\": \"Test Service\",\n  \"category\": \"Test Category\",\n  \"price\": 100,\n  \"location\": \"Test Location\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:5000/api/services",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5000",
+            "path": ["api", "services"]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Get Services",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:5000/api/services",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5000",
+            "path": ["api", "services"]
+          }
+        },
+        "response": []
+      }
+    ]
+  }

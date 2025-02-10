@@ -1,0 +1,42 @@
+{
+    "info": {
+      "name": "Booking API",
+      "description": "API tests for booking endpoints"
+    },
+    "item": [
+      {
+        "name": "Create Booking",
+        "request": {
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"user\": \"60d0fe4f5311236168a109ca\",\n  \"service\": \"60d0fe4f5311236168a109cb\",\n  \"date\": \"2021-07-01T00:00:00.000Z\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:5000/api/bookings",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5000",
+            "path": ["api", "bookings"]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Get Bookings",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:5000/api/bookings",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5000",
+            "path": ["api", "bookings"]
+          }
+        },
+        "response": []
+      }
+    ]
+  }

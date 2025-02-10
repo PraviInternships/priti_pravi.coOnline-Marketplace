@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.service-card {
+    @apply p-4 border rounded-lg shadow-md;
+}
+
+.navbar {
+    @apply flex justify-between p-4 bg-gray-800 text-white;
+}
+
+.footer {
+    @apply p-4 bg-gray-800 text-white text-center;
+}
+
+.home, .search-results, .booking, .profile {
+    @apply p-4;
+}
+
+.services-list {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
+}
