@@ -1,0 +1,6 @@
+"user_id","full_name","email","password_hash","role","created_at"
+1,"Alice Johnson","alice@example.com","hashed_password_1","customer","2025-02-11 12:51:54.381933"
+2,"Bob Smith","bob@example.com","hashed_password_2","provider","2025-02-11 12:51:54.381933"
+3,"Charlie Brown","charlie@example.com","hashed_password_3","admin","2025-02-11 12:51:54.381933"
+4,"Diana Evans","diana@example.com","hashed_password_4","provider","2025-02-11 12:51:54.381933"
+5,"Ethan Moore","ethan@example.com","hashed_password_5","customer","2025-02-11 12:51:54.381933"

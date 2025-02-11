@@ -1,0 +1,4 @@
+"service_id","provider_id","title","category","description","price","availability","created_at"
+1,2,"Dog Walking","Pet Services","30-minute dog walking session","15.00","{""monday"": [""10:00"", ""12:00""], ""wednesday"": [""14:00"", ""16:00""]}","2025-02-11 12:51:54.381933"
+2,4,"House Cleaning","Home Services","Full house cleaning service","50.00","{""friday"": [""15:00"", ""17:00""], ""tuesday"": [""09:00"", ""11:00""]}","2025-02-11 12:51:54.381933"
+3,2,"Private Math Tutoring","Education","1-hour math tutoring session","25.00","{""monday"": [""15:00"", ""17:00""], ""thursday"": [""16:00"", ""18:00""]}","2025-02-11 12:51:54.381933"
